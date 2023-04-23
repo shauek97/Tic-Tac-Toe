@@ -1,0 +1,122 @@
+/* colors
+717568
+BACBA9
+E1F4CB
+F1BF98
+*/
+
+
+body{
+    margin: 0;
+    background: #717568;
+  }
+  
+  .container{
+    max-width:1100px;
+    margin: 0 auto;
+    background: #717568;
+    padding: 30px;
+  }
+  
+  .header{
+    color: #F1BF98;
+  }
+  
+  .choose{
+    padding: 20px;
+    font-family: 'crimson', sans-serif;
+    text-align: center;
+  }
+  
+  .buttons{
+    max-height: 200px;
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #circle{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    background: #BACBA9;
+  }
+  
+  #cross{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    background: #BACBA9;
+  }
+  
+  .instruction{
+    color: #F1BF98;
+    transition: 0.2s;
+    padding-top:10px;
+  }
+  
+  .hidden{
+      visibility: hidden;
+  }
+  
+  .game{
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px; 
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    max-width: 400px;
+    background: #E1F4CB;
+  }
+  
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'roboto',sans-serif;
+    background: #F1BF98;
+    border-radius:10px;
+    font-size: 50px;
+  }
+  
+  .result{
+    font-family: 'roboto', sans-serif;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #F1BF98;
+  }
+  
+  .reset-div{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #reset{
+    border-radius: 10px;
+    height: 60px;
+    width: 100px;
+    font-size: 24px;
+    background: #BACBA9;
+  }
+  
+  .rights{
+    font-family: 'roboto', sans-serif;
+    font-size: 24px;
+    margin-top: 60px;
+  }
+  
