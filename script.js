@@ -65,7 +65,11 @@ function gameEngine(){
        
         htmlText1.innerHTML === "X" && 
         htmlText5.innerHTML === "X" &&
-        htmlText9.innerHTML === "X"){
+        htmlText9.innerHTML === "X" ||
+           
+        htmlText3.innerHTML === "X" && 
+        htmlText5.innerHTML === "X" &&
+        htmlText7.innerHTML === "X" ){
             resultText.innerHTML = '"X" WON!';
         }
         
@@ -91,7 +95,11 @@ function gameEngine(){
         
         htmlText1.innerHTML === "O" && 
         htmlText5.innerHTML === "O" &&
-        htmlText9.innerHTML === "O"){
+        htmlText9.innerHTML === "O" ||
+                
+        htmlText3.innerHTML === "O" && 
+        htmlText5.innerHTML === "O" &&
+        htmlText7.innerHTML === "O"){
             resultText.innerHTML = '"O" WON!';
         }
         else if(
